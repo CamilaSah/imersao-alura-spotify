@@ -89,3 +89,35 @@
     font-weight: 700;
     border-radius: 40px;
 }
+
+.playlist__navigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: #121212;
+    height: 100vh;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.playlist__navigation .playlist__navigation__content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-right: 1.25rem;
+}
+
+.playlist__navigation__content .title {
+    font-size: 30px;
+    font-family: var(--font-dm-san);
+    font-weight: bold;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.playlist__navigation__content .subtitle {
+    font-size: 24px;
+    font-family: var(--font-dm-san);
+    font-weight: bold;
+    color: #fff;
+}
