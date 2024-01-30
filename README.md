@@ -1,3 +1,6 @@
+![Front-end-Imersão Front-End Alura](https://github.com/CamilaSah/imersao-alura-spotify/assets/128820692/722f63b9-4884-4ae7-a9d5-89e7a0bbf8cb)
+![Static Badge](https://img.shields.io/badge/Status-Conclu%C3%ADdo-%2391DCFF)
+
 <h1> Imersão Front-End Alura - Spotify </h1>
 
 Este projeto prático foi desenvolvido durante a Imersão Front-End da Alura, no qual foi proposto desenvolver uma página inspirada no Spotify, mergulhando em HTML e CSS, além de conhecer um pouco de Javascript e ver o conceito de React.
@@ -6,6 +9,28 @@ Este projeto prático foi desenvolvido durante a Imersão Front-End da Alura, no
 - `Pesquisar por nome de artista ou gênero`: quando o usuário digitar o nome do artista ou do gênero no campo de pesquisa, aparecerá os resultados da pesquisa embaixo.
 
 ## 📁 Acesso ao projeto
+
+Para poder acessar o projeto, você precisa:
+* Instalar o json-server: simula um servidor local no seu computador;
+* Instalar o Node.js: é um ambiente de execução do código Javascript do lado servidor (server side), que permite executar aplicações desenvolvidas com a linguagem sem depender de um navegador.
+* Instalar o Live Server: é uma extensão para o Visual Studio Code que cria um servidor local para hospedar seu projeto e atualizar automaticamente a página quando você faz alterações no código. Você pode usar outra aplicação, caso queira.
+
+O passo a passo para fazer as instalações é:
+
+Caso você ainda não tenha instalado o Node.js e o json-server:
+1. Entrar no site nodejs.dev e fazer o download no Node;
+2. Abrir o terminal do VSCode;
+3. Clicar em "Terminal" -> “Novo terminal”;
+4. Escrever o comando `npm init` para iniciar o npm dentro do projeto;
+5. Dar “Enter” em todas as opções;
+6. Escrever o comando `npm install -g json-server` para executar a instalação do json-server;
+
+Caso você já tenha instalado o Node.js e o json-server:
+1. Escrever o comando `npx json-server --watch artists.json` para iniciar o servidor;
+2. Ele vai iniciar o servidor local em uma porta `[PORT_NUMBER]`. Quando você quiser acessar o URL do servidor vai ser localhost:`[PORT_NUMBER]`/artists.
+3. Abrir o `index.html` com o Live Server.
+<br>
+PS.: O projeto só irá funcionar se o servidor local estiver sendo executado no terminal do VSCode.
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
@@ -35,14 +60,17 @@ Tecnologias e ferramentas utilizadas:
 - ``CSS``: foi utilizada para estilização da página.
 - ``VS Code``: O código foi desenvolvido neste editor de código.
 - ``Developer Tools``: foi utilizada para escolher o tipo de dispositivo a ser visualizado, inspecionar os elementos HTML, alterar o tamanho da tela e  os estilos CSS da página temporariamente e abrir a visualização responsiva.
+- ``Extensão Live Server``: é uma extensão para o Visual Studio Code que cria um servidor local para hospedar seu projeto e atualizar automaticamente a página quando você faz alterações no código. 
 - ``Git``: Ferramenta de controle de versão de seu arquivo, projeto ou código. 
 - ``GitHub``: Plataforma para gerenciar seu código e criar um ambiente de colaboração entre devs (permite compartilhamento de código através da criação de repositórios), utilizando o Git como sistema de controle.
 - ``Vercel``: Colocar o projeto no ar e compartilhar com o mundo.
 
 ## 📚 Mais informações da Imersão
-Gostou do projeto e quer conhecer mais? Você pode acessar o curso que me ajudou a desenvolver o projeto desde o começo! 
+A Imersão foi ministrada pelos professores: [Guilherme Lima](https://www.linkedin.com/in/guilherme-lima-developer/), [Mayara Cardoso](https://www.linkedin.com/in/mayara-cardoso-556a45162/) e [Fernanda Degoli](https://www.linkedin.com/in/fernandadegolin/) e contou com este cronograma:
+<br>
+![image](https://github.com/CamilaSah/imersao-alura-spotify/assets/128820692/3241c4b1-e359-4dda-99c1-2359c74d5f1c)
 
-# Autores
+# Autor
 
 | <img src="https://github.com/CamilaSah/site-pessoal/assets/128820692/bed790ab-3722-4503-8fed-c786e774661b" width="100"><br>[<sub>Camila Sayuri Tokubo</sub>](https://www.linkedin.com/in/camila-tokubo/)|
 | :---: |
