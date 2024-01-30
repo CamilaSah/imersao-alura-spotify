@@ -90,7 +90,9 @@
     font-weight: 700;
     border-radius: 40px;
 }
+/*FIM HEADER */
 
+/* PLAYLIST */
 .playlist__navigation {
     background-color: #121212;
     height: 68vh;
@@ -99,11 +101,11 @@
     border-radius: 10px;
 }
 
-.playlist__navigation #result-playlists {
+.playlist {
     margin: 24px;
 }
 
-.playlist__navigation__content #greeting {
+.playlist #greeting {
     font-size: 32px;
     font-family: var(--font-dm-san);
     font-weight: 700;
@@ -111,7 +113,7 @@
     margin-bottom: 48px;
 }
 
-.playlist__navigation__content .subtitle {
+.playlist .subtitle {
     font-size: 24px;
     font-family: var(--font-dm-san);
     font-weight: 700;
@@ -124,6 +126,15 @@
     margin: 24px;
     overflow-y: auto;
 }
+
+.offer__scroll-container::-webkit-scrollbar {
+    width: 1px;
+  }
+  
+  .offer__scroll-container::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+  /* FIM SCROLL */
 
 .offer__list-item {
     display: grid;
@@ -210,7 +221,6 @@
 .card15 {
     background: rgb(60, 30, 80);
 }
-
 /* FIM COLOR CARDS */
 
 .offer__list-item img {
@@ -332,5 +342,4 @@
 #result-artist {
     padding: 20px 40px;
 }
-
 /* FIM CARD ARTISTA */
