@@ -41,6 +41,7 @@ Caso você já tenha instalado o Node.js e o json-server:
 7. Abrir o `index.html` com o Live Server.
 <br>
 PS¹.: Você pode usar o terminal do Git Bash ao invés do VSCode, caso queira.
+<br>
 PS².: O projeto só irá funcionar se o servidor local estiver sendo executado no terminal do VSCode ou no Git Bash.
 
 ## ✔️ Técnicas e tecnologias utilizadas
